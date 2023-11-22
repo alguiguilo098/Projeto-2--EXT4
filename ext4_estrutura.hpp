@@ -1,6 +1,6 @@
 #include<cstdint>
 struct super_block_t{
-   int32_t s_inodes_count;
+   int32_t s_inodes_count;// total de inodes
    int32_t 	s_blocks_count_lo;
    int32_t 	s_r_blocks_count_lo;
    int32_t 	s_free_blocks_count_lo;
